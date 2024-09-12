@@ -1,12 +1,14 @@
 import React from 'react';
 import './Sobre.css'; // Importe o arquivo CSS
+import opa from './opa.png';
+
 
 const Sobre = () => {
   return (
     <div className="container"> {/* Adicione a classe container */}
     <div>
     <a href="/">
-        <img src="/opa.png" alt="Destino Certo" />
+        <img src={opa} alt="Destino Certo" />
     </a>
     </div>
       <h1>Sobre Nós</h1>

@@ -6,6 +6,8 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
+import logo from './logo.png';
+
 
 function Navbar({ scrollToSelects, scrollToDestinations, scrollToSearch, scrollToImgCarousel }) { // Receba as funções como props
   const [nav, setNav] = useState(false);
@@ -21,7 +23,7 @@ function Navbar({ scrollToSelects, scrollToDestinations, scrollToSearch, scrollT
     <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
       <div className='logo-navbar'>
         <a href="/">
-          <img src="/logo.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
         </a>
       </div>
 

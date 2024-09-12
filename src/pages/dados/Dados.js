@@ -1,12 +1,13 @@
 import React from 'react'
 import './Dados.css'; // Importação do arquivo de estilos CSS
+import opa from './opa.png';
 
 
 const Dados = () => {
   return (
     <div className='infos'>
     <a href="/">
-     <img src="/opa.png"  />
+     <img src={opa}  />
      </a>
       <h2>Contato</h2>
       <p>(43)99999-9999 <br></br>sememail@unifil.com.br</p>
