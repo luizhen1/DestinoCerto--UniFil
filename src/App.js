@@ -1,5 +1,5 @@
-import React from 'react'
-import Sobre from "./pages/sobre/Sobre"
+import React from 'react';
+import Sobre from "./pages/sobre/Sobre";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/home/HomePage';
 import Parcerias from './pages/parcerias/Parcerias';
@@ -10,16 +10,16 @@ import Pacotes  from './pages/pacotes/pacotes';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-    <Route path='/' element={<HomePage/>} />
-    <Route path='/parcerias' element={<Parcerias/>} />
-    <Route path='/sobre' element={<Sobre/>} />
-    <Route path='/carreiras' element={<Carreiras/>} />
-    <Route path='/infos' element={<Dados/>} />
-    <Route path='/login' element={<Login/>} />
-    <Route path='/pacotes' element={<Pacotes/>} />
-    </Routes>
+    <BrowserRouter basename="/DestinoCerto--UniFil">
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/parcerias' element={<Parcerias />} />
+        <Route path='/sobre' element={<Sobre />} />
+        <Route path='/carreiras' element={<Carreiras />} />
+        <Route path='/infos' element={<Dados />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/pacotes' element={<Pacotes />} />
+      </Routes>
     </BrowserRouter>
   );
 }

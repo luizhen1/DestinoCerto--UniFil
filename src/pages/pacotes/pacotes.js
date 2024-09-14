@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './pacotes.css';
 
+
 Modal.setAppElement('#root'); // Para acessibilidade
 
 const pacotes = [
