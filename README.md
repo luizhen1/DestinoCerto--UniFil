@@ -1,3 +1,18 @@
+---
+title: "DestinoCerto" 
+draft: false 
+language: pt-br 
+featured\_image: /DestinoCerto/destino/imagem-de-apresentacao/destinocerto.png
+summary: /DestinoCerto/destino/pdf-de-apresentacao/pdf.pdf
+author: Luiz Henrique Lima 
+categories: Website 
+tags: \["React", "JavaScript", "Node.js", "API", "Travel Booking", "Frontend", "Responsive Design", "CSS", "HTML", "Authentication", "User Registration", "Travel Packages", "Travel Agency", "Web Development", "React Hooks", "Axios", "React Router", "Context API", "Agendamento de Viagens", "Reserva de Viagens", "UI/UX", "Form Validation", "State Management"]
+linkrepository: https://github.com/luizhen1/DestinoCerto--UniFil
+linkweb: https://luizhen1.github.io/DestinoCerto--UniFil/
+linkvideo: /DestinoCerto/destino/video-de-apresentacao/video-apresentacao
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
