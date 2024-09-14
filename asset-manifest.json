@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DestinoCerto--UniFil/static/css/main.41a531e4.css",
-    "main.js": "/DestinoCerto--UniFil/static/js/main.0315d665.js",
+    "main.js": "/DestinoCerto--UniFil/static/js/main.e483ce72.js",
     "static/media/maldivesVideo.mp4": "/DestinoCerto--UniFil/static/media/maldivesVideo.4b1c6a6fb879322d6587.mp4",
     "static/media/keywest.jpg": "/DestinoCerto--UniFil/static/media/keywest.1e30514942c6f50bea09.jpg",
     "static/media/maldives2.jpg": "/DestinoCerto--UniFil/static/media/maldives2.ee088b6ef17100d7f85f.jpg",
@@ -14,10 +14,10 @@
     "static/media/opa.png": "/DestinoCerto--UniFil/static/media/opa.3e9af9c2a11795c51da2.png",
     "index.html": "/DestinoCerto--UniFil/index.html",
     "main.41a531e4.css.map": "/DestinoCerto--UniFil/static/css/main.41a531e4.css.map",
-    "main.0315d665.js.map": "/DestinoCerto--UniFil/static/js/main.0315d665.js.map"
+    "main.e483ce72.js.map": "/DestinoCerto--UniFil/static/js/main.e483ce72.js.map"
   },
   "entrypoints": [
     "static/css/main.41a531e4.css",
-    "static/js/main.0315d665.js"
+    "static/js/main.e483ce72.js"
   ]
 }
